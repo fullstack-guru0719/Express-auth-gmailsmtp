@@ -1,0 +1,29 @@
+{
+  "name": "authenticating-users",
+  "version": "1.0.0",
+  "description": "Google Oauth login ",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "googleapis": "^67.1.1",
+    "nodemailer": "^6.5.0",
+    "passport": "^0.4.1",
+    "passport-google-oauth": "^2.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "oauth",
+    "express",
+    "ejs"
+  ],
+  "author": "Jhonny",
+  "license": "ISC"
+}
